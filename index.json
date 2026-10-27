@@ -1,7 +1,165 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "description": "用户亲自挑选的表情包，图片与描述仅作为素材。",
   "stickers": [
+    {
+      "id": "ce3b658ad22f1e82",
+      "name": "抱枕困困",
+      "path": "stickers/3EEBEC44E0FDADD908ED24FD2F9EC992.jpg",
+      "tags": [
+        "困困",
+        "晚安",
+        "睡觉",
+        "休息"
+      ],
+      "use_cases": [
+        "说晚安",
+        "表达困倦",
+        "准备休息"
+      ],
+      "visible_text": "",
+      "description": "白色圆团子坐在紫色枕头旁，闭着眼、脸颊泛红，头上有睡意符号；动图中轻轻晃动。",
+      "meaning": "困了、想睡觉、准备休息。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "用户要贴贴或亲亲，不能把抱枕误认为在拥抱另一个角色。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "ce3b658ad22f1e82fa4d444ede25d886016eb2beb8e00b406504d0593dca7758",
+      "bytes": 116832,
+      "actual_format": "GIF",
+      "media_type": "image/gif",
+      "animated": true,
+      "frame_count": 24,
+      "width": 240,
+      "height": 240,
+      "preview_paths": [
+        "previews/ce3b658ad22f1e82/frame-000.png",
+        "previews/ce3b658ad22f1e82/frame-012.png",
+        "previews/ce3b658ad22f1e82/frame-023.png"
+      ],
+      "delivery_path": "delivery/ce3b658ad22f1e82.gif",
+      "extension_matches_format": false,
+      "meaning_confidence": "high",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0,
+          8,
+          16,
+          23
+        ]
+      }
+    },
+    {
+      "id": "1f44d8fe6e81b0fa",
+      "name": "团子吃饭",
+      "path": "stickers/4D60C69282D7356CF35C91601C092286.jpg",
+      "tags": [
+        "吃饭",
+        "干饭",
+        "吃东西",
+        "食物"
+      ],
+      "use_cases": [
+        "说要去吃饭",
+        "聊食物",
+        "表达正在吃东西"
+      ],
+      "visible_text": "",
+      "description": "白色圆团子面前有一碗食物，动图里反复做吃东西的动作；原图只有56×56像素。",
+      "meaning": "吃东西、干饭，可以用在吃饭或讨论食物时。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "没有拥抱或依偎动作，不作为贴贴或亲亲。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "1f44d8fe6e81b0fa6fa64f06b16451d4f24106caf1f40c3ea16c2fbd361e6ca9",
+      "bytes": 22805,
+      "actual_format": "GIF",
+      "media_type": "image/gif",
+      "animated": true,
+      "frame_count": 22,
+      "width": 56,
+      "height": 56,
+      "preview_paths": [
+        "previews/1f44d8fe6e81b0fa/frame-000.png",
+        "previews/1f44d8fe6e81b0fa/frame-011.png",
+        "previews/1f44d8fe6e81b0fa/frame-021.png"
+      ],
+      "delivery_path": "delivery/1f44d8fe6e81b0fa.gif",
+      "extension_matches_format": false,
+      "meaning_confidence": "high",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0,
+          7,
+          14,
+          21
+        ]
+      }
+    },
+    {
+      "id": "0bd4020d1cda4bd1",
+      "name": "黑猫探头盯着看",
+      "path": "stickers/7B0F38DD653875E8BCD0FDA7D834765F.jpg",
+      "tags": [
+        "黑猫",
+        "探头",
+        "盯着看",
+        "疑惑"
+      ],
+      "use_cases": [
+        "好奇围观",
+        "探头看看",
+        "等对方说话"
+      ],
+      "visible_text": "",
+      "description": "黑色小猫从下方露出头部，睁着圆眼看前方，耳朵在不同帧有轻微变化；没有与另一角色接触。",
+      "meaning": "探头、观察或疑惑地盯着看。具体情绪需要结合聊天语境。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "不标注为小猫贴贴；没有拥抱、贴近或亲吻的画面。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "0bd4020d1cda4bd13cbb3fb6785778c213333bd26a0a4fa9e8563147e62cf8ad",
+      "bytes": 1436,
+      "actual_format": "GIF",
+      "media_type": "image/gif",
+      "animated": true,
+      "frame_count": 3,
+      "width": 57,
+      "height": 48,
+      "preview_paths": [
+        "previews/0bd4020d1cda4bd1/frame-000.png",
+        "previews/0bd4020d1cda4bd1/frame-001.png",
+        "previews/0bd4020d1cda4bd1/frame-002.png"
+      ],
+      "delivery_path": "delivery/0bd4020d1cda4bd1.gif",
+      "extension_matches_format": false,
+      "meaning_confidence": "medium",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
     {
       "id": "94545a96dad74636",
       "name": "呼叫宝宝",
@@ -18,12 +176,313 @@
         "表达想念"
       ],
       "visible_text": "呼叫宝宝 呼叫宝宝",
-      "description": "白色圆润卡通角色，脸颊淡黄，穿粉红衣服，双手握在胸前，旁边飘着爱心；下方是呼叫宝宝的文字。",
+      "description": "白色卡通角色双手搭在粉红色边缘上，脸颊淡黄，旁边有浮动爱心，下方文字反复呼叫宝宝。",
       "source": "用户提供",
       "author": "未知",
       "license": "未确认",
       "sha256": "94545a96dad74636d3543e70b2a90cd0f32f5c483cc98eb1c421565e99341403",
-      "bytes": 161390
+      "bytes": 161390,
+      "actual_format": "GIF",
+      "media_type": "image/gif",
+      "animated": true,
+      "frame_count": 14,
+      "width": 230,
+      "height": 192,
+      "preview_paths": [
+        "previews/94545a96dad74636/frame-000.png",
+        "previews/94545a96dad74636/frame-007.png",
+        "previews/94545a96dad74636/frame-013.png"
+      ],
+      "delivery_path": "delivery/94545a96dad74636.gif",
+      "extension_matches_format": false,
+      "review_status": "reviewed",
+      "meaning": "亲昵地呼唤对方、想找对方聊天或表达想念。",
+      "avoid_when": [
+        "正式讲题或严肃事务。"
+      ],
+      "meaning_confidence": "high",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0,
+          4,
+          9,
+          13
+        ]
+      },
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。"
+    },
+    {
+      "id": "faa638a8bc2ab5e2",
+      "name": "团子小熊贴贴",
+      "path": "stickers/9B464C1FD07C89B93BC867872D302C39.jpg",
+      "tags": [
+        "贴贴",
+        "抱抱",
+        "拥抱",
+        "依偎",
+        "亲昵"
+      ],
+      "use_cases": [
+        "回应贴贴",
+        "想抱抱",
+        "亲昵地陪伴"
+      ],
+      "visible_text": "贴贴",
+      "description": "白色圆团子与棕色小熊互相搂抱、脸颊紧贴，上方有“贴贴”和红心。",
+      "meaning": "想贴近、抱抱、依偎，直接对应贴贴请求。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "用户明确不喜欢身体接触类表达时。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "faa638a8bc2ab5e2b9ee209f992ab4b9fbee928964f11fe30aba4a1cdf0b1bc0",
+      "bytes": 27617,
+      "actual_format": "GIF",
+      "media_type": "image/gif",
+      "animated": true,
+      "frame_count": 5,
+      "width": 240,
+      "height": 240,
+      "preview_paths": [
+        "previews/faa638a8bc2ab5e2/frame-000.png",
+        "previews/faa638a8bc2ab5e2/frame-002.png",
+        "previews/faa638a8bc2ab5e2/frame-004.png"
+      ],
+      "delivery_path": "delivery/faa638a8bc2ab5e2.gif",
+      "extension_matches_format": false,
+      "meaning_confidence": "high",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "56175baefe3842d8",
+      "name": "抱着转圈",
+      "path": "stickers/AD33F61927E72B9D1A9AFB29BCEB75B3.jpg",
+      "tags": [
+        "贴贴",
+        "抱抱",
+        "拥抱",
+        "转圈",
+        "开心"
+      ],
+      "use_cases": [
+        "回应抱抱",
+        "开心贴贴",
+        "表达见面的喜悦"
+      ],
+      "visible_text": "",
+      "description": "棕色小熊与白色圆团子紧紧抱在一起，动图从不同方向显示双方搂抱转圈。",
+      "meaning": "开心地抱抱、黏在一起或抱着转圈。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "不是吃饭、睡觉或单独探头。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "56175baefe3842d89e895d4718f4f28ba6c1b3f1991fe4953729ac172e2e977e",
+      "bytes": 15960,
+      "actual_format": "GIF",
+      "media_type": "image/gif",
+      "animated": true,
+      "frame_count": 8,
+      "width": 68,
+      "height": 68,
+      "preview_paths": [
+        "previews/56175baefe3842d8/frame-000.png",
+        "previews/56175baefe3842d8/frame-004.png",
+        "previews/56175baefe3842d8/frame-007.png"
+      ],
+      "delivery_path": "delivery/56175baefe3842d8.gif",
+      "extension_matches_format": false,
+      "meaning_confidence": "high",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0,
+          2,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "d2de449a4f80c913",
+      "name": "爱心黑猫探头",
+      "path": "stickers/ADC37C01B2EB882DA5B6D48BF72ACDF3.jpg",
+      "tags": [
+        "黑猫",
+        "爱心",
+        "探头",
+        "喜欢"
+      ],
+      "use_cases": [
+        "表达喜欢",
+        "可爱地露个头",
+        "表示在关注对方"
+      ],
+      "visible_text": "",
+      "description": "黑色小猫从下方露出脑袋，圆眼看前方，脑袋上方有红色爱心；静态图，没有另一个角色。",
+      "meaning": "带爱心地探头，可表达喜欢或关注；仅凭爱心不能推断为拥抱。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "不要叫小猫贴贴、拥抱或亲吻。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "d2de449a4f80c913a1407c200c28780aeb6ed45b49de72bdc200fba4d6051951",
+      "bytes": 1536,
+      "actual_format": "JPEG",
+      "media_type": "image/jpeg",
+      "animated": false,
+      "frame_count": 1,
+      "width": 57,
+      "height": 48,
+      "preview_paths": [
+        "previews/d2de449a4f80c913/frame-000.png"
+      ],
+      "delivery_path": "delivery/d2de449a4f80c913.jpg",
+      "extension_matches_format": true,
+      "meaning_confidence": "medium",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "f476d98b3f15cb25",
+      "name": "团子小熊亲亲",
+      "path": "stickers/CA8D7FBE709D76D2FD677EE7F5A1A9F7.jpg",
+      "tags": [
+        "亲亲",
+        "亲吻",
+        "亲昵",
+        "贴贴"
+      ],
+      "use_cases": [
+        "回应亲亲",
+        "想亲一下",
+        "亲昵地贴近"
+      ],
+      "visible_text": "",
+      "description": "白色圆团子靠在棕色小熊脸旁，做亲吻或亲脸动作，上方有浮动爱心；动图有连续细微动作。",
+      "meaning": "亲亲、亲脸，也可作为亲昵地靠近的回应。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "对方只想温和抱抱时优先选明确拥抱的图。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "f476d98b3f15cb25094d36528155a8a85bfdbacbf39a9c5529595eba33f7dd5f",
+      "bytes": 40225,
+      "actual_format": "GIF",
+      "media_type": "image/gif",
+      "animated": true,
+      "frame_count": 24,
+      "width": 75,
+      "height": 75,
+      "preview_paths": [
+        "previews/f476d98b3f15cb25/frame-000.png",
+        "previews/f476d98b3f15cb25/frame-012.png",
+        "previews/f476d98b3f15cb25/frame-023.png"
+      ],
+      "delivery_path": "delivery/f476d98b3f15cb25.gif",
+      "extension_matches_format": false,
+      "meaning_confidence": "high",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0,
+          8,
+          16,
+          23
+        ]
+      }
+    },
+    {
+      "id": "f57001780b335a08",
+      "name": "头顶长花花",
+      "path": "stickers/D2927D28EAA94468B5376C1A31D007FE.jpg",
+      "tags": [
+        "长花花",
+        "小花",
+        "可爱",
+        "卖萌"
+      ],
+      "use_cases": [
+        "轻松卖萌",
+        "聊花或表达好心情"
+      ],
+      "visible_text": "长花花",
+      "description": "一个黑白小动物头顶长出弯弯的花茎和小花，右上方文字是“长花花”；原图较小。",
+      "meaning": "头顶长花的可爱表达，可结合语境表达开心或送一朵小花；不是特定网络梗的唯一解释。",
+      "source": "用户上传到仓库",
+      "author": "未知",
+      "license": "未确认",
+      "review_status": "reviewed",
+      "avoid_when": [
+        "没有拥抱或贴脸，不作为贴贴图。"
+      ],
+      "interpretation_note": "画面已核对；使用含义依聊天语境，用户明确纠正时以用户说明为准。",
+      "sha256": "f57001780b335a08e5c62f6bc6102730829bc52ea2d077f461ac01b7cffdd1e7",
+      "bytes": 2402,
+      "actual_format": "JPEG",
+      "media_type": "image/jpeg",
+      "animated": false,
+      "frame_count": 1,
+      "width": 70,
+      "height": 66,
+      "preview_paths": [
+        "previews/f57001780b335a08/frame-000.png"
+      ],
+      "delivery_path": "delivery/f57001780b335a08.jpg",
+      "extension_matches_format": true,
+      "meaning_confidence": "medium",
+      "visual_review": {
+        "date": "2026-10-27",
+        "method": "实际打开原图；动图另看分散抽帧",
+        "reviewed_frames": [
+          0
+        ]
+      }
     }
-  ]
+  ],
+  "selection_guidance": {
+    "贴贴或抱抱": {
+      "preferred_paths": [
+        "stickers/9B464C1FD07C89B93BC867872D302C39.jpg",
+        "stickers/AD33F61927E72B9D1A9AFB29BCEB75B3.jpg"
+      ],
+      "exclude_reason": "吃饭、困困、黑猫探头和长花花没有双方贴近，不因为可爱就当作贴贴。"
+    },
+    "亲亲": {
+      "preferred_paths": [
+        "stickers/CA8D7FBE709D76D2FD677EE7F5A1A9F7.jpg"
+      ]
+    },
+    "发送顺序": "按该次实际附件清单回答第几张，不按仓库文件排序推测。"
+  }
 }

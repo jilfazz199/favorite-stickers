@@ -14,16 +14,17 @@ def values(text):
     return list(dict.fromkeys(x.strip() for x in re.split('[,，、]', text) if x.strip()))
 
 
-def render_gallery(data):
+def render_gallery(data, root=ROOT):
     def cell(text):
         return str(text).replace('|', '\\|').replace('\n', ' ')
-    lines = ['| 图片 | 名称 | 情绪 | 场景 |', '| --- | --- | --- | --- |']
+    lines = ['| 图片 | 名称 | 情绪 | 场景 | 标注状态 |', '| --- | --- | --- | --- | --- |']
     for item in data['stickers']:
-        path = item['path']
+        path = (item.get('preview_paths') or [item['path']])[0]
         lines.append(f'| <img src="{path}" width="140" alt="收藏表情"> | '
                      f'{cell(item["name"])} | {cell("、".join(item["tags"]))} | '
-                     f'{cell("、".join(item["use_cases"]))} |')
-    readme = ROOT / 'README.md'
+                     f'{cell("、".join(item["use_cases"]))} | '
+                     f'{"已看图标注" if item.get("review_status")=="reviewed" else "待看图，暂不按语义选用"} |')
+    readme = root / 'README.md'
     text = readme.read_text(encoding='utf-8')
     start = '<!-- GALLERY:START -->'
     end = '<!-- GALLERY:END -->'
@@ -42,6 +43,7 @@ def main():
     parser.add_argument('--description', default='')
     parser.add_argument('--scene', default='')
     parser.add_argument('--source', default='用户提供')
+    parser.add_argument('--reviewed', action='store_true', help='确认自己已实际看图并填写含义；否则保持待标注状态')
     args = parser.parse_args()
     source = args.image.resolve()
     if not source.is_file() or source.suffix.lower() not in EXTENSIONS:
@@ -68,10 +70,12 @@ def main():
         'visible_text': args.text, 'description': args.description,
         'source': args.source, 'author': '未知', 'license': '未确认',
         'sha256': digest, 'bytes': len(payload),
+        'review_status': 'reviewed' if args.reviewed else 'pending',
     })
     index.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    render_gallery(data)
-    print(json.dumps({'added': True, 'path': relative, 'total': len(data['stickers'])}, ensure_ascii=False))
+    from sync_index import sync
+    result = sync()
+    print(json.dumps({'added': True, 'path': relative, 'total': result['total']}, ensure_ascii=False))
 
 
 if __name__ == '__main__':
